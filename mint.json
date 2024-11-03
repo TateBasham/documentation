@@ -10,10 +10,7 @@
     "primary": "#30429F",
     "light": "#30429F",
     "dark": "#30429F",
-    "anchors": {
-      "from": "#2193b0",
-      "to": "#6dd5ed"
-    },
+    
     "background": {
       "dark": "#0e1111",
       "light": "#ffffff"
@@ -22,7 +19,7 @@
   "topbarLinks": [
     {
       "name": "Status",
-      "url": "https://designystatuspage.statuspage.io"
+      "url": "https://uptime.designybot.xyz"
     }
   ],
   "topbarCtaButton": {
