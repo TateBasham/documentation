@@ -1,91 +1,77 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Designy Documentation",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#30429F",
+    "light": "#30429F",
+    "dark": "#30429F",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#2193b0",
+      "to": "#6dd5ed"
+    },
+    "background": {
+      "dark": "#0e1111",
+      "light": "#ffffff"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Status",
+      "url": "https://designystatuspage.statuspage.io"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Community",
+    "url": "https://discord.gg/8XScx8MNfE"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Support Server",
+      "icon": "discord",
+      "url": "https://discord.gg/8XScx8MNfE"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Status Page",
+      "icon": "signal-bars",
+      "iconType": "solid",
+      "url": "https://designystatuspage.statuspage.io/"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Introduction",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction/welcome",
+        "introduction/faq",
+        "introduction/troubleshoot",
+        "introduction/change"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Configuration",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "config/start",
+        "config/infraction",
+        "config/review",
+        "config/order"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Modules",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "modules/infract",
+        "modules/order",
+        "modules/tax",
+        "modules/reviews"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "discord": "https://discord.gg/8XScx8MNfE"
   }
 }
