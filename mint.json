@@ -7,24 +7,18 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#30429F",
-    "light": "#30429F",
-    "dark": "#30429F",
+    "primary": "#006e6e",
+    "light": "#006e6e",
+    "dark": "#006e6e",
     
     "background": {
       "dark": "#0e1111",
-      "light": "#ffffff"
+      "light": "#f2f2ff"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Status",
-      "url": "https://uptime.designybot.xyz"
-    }
-  ],
   "topbarCtaButton": {
-    "name": "Community",
-    "url": "https://discord.gg/8XScx8MNfE"
+    "name": "Invite Tropica",
+    "url": "https://discord.com/oauth2/authorize?client_id=1272729669376147456&permissions=8&integration_type=0&scope=bot+applications.commands"
   },
   "anchors": [
     {
@@ -36,7 +30,7 @@
       "name": "Status Page",
       "icon": "signal-bars",
       "iconType": "solid",
-      "url": "https://designystatuspage.statuspage.io/"
+      "url": "https://uptime.tropicabot.xyz"
     }
   ],
   "navigation": [
