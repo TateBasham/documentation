@@ -1,0 +1,52 @@
+---
+title: Infraction Module
+description: Learn how to use the Infraction module to manage user infractions.
+
+---
+
+### Command: `/infract add`
+Adds an infraction to a user.  
+
+#### **Parameters**  
+- **`user`** (required) – The user to infract. Accepts a mention or user ID.  
+- **`type`** (required) – The type of infraction.  
+- **`reason`** (optional) – The reason for the infraction. If left blank, a default reason will be applied.  
+
+---
+
+### Command: `/infract void`
+Removes a previously issued infraction from a user.  
+
+#### **Parameters**  
+- **`infraction_id`** (required) – The ID of the infraction to remove.  
+
+---
+
+### Command: `/infract search`
+Displays a specific infraction.  
+
+#### **Parameters**  
+- **`infraction_id`** (required) – The ID of the infraction to search.  
+
+---
+
+## Possible Outcomes  
+
+✅ **Action Successfully Completed**  
+If the command is executed correctly, you will see a confirmation message:  
+
+> ✅ **Success:** The action was completed successfully, and any necessary changes have been made.  
+
+Depending on the command, this could mean an infraction was added, removed, or displayed.  
+
+❌ **Insufficient Permissions**  
+If you do not have the required permissions, you will receive an error message:  
+
+> ⚠️ **Error:** You do not have permission to use this command.  
+
+Ensure you have the necessary permissions or roles to perform this action.  
+
+
+---
+
+You have now learned how to use the Infraction module!
