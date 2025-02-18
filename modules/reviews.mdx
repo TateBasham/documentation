@@ -1,5 +1,37 @@
 ---
 title: Reviews Module
 description: Learn how to use the Reviews module.
+icon: "star"
+---
+
+### Command: `/review add`
+Adds a review to the designer after completing the order! 
+
+#### **Parameters**  
+- **`designer`** (required) – The designer you wish to review.
+- **`product`** (required) – The product you recieved from the order, which you are reviewing.
+- **`review`** (required) – Select the stars (out of 5) you wish to give the designer!
+- **`notes`** (optional) - Additional notes about the order you want to give!
 
 ---
+
+## Possible Outcomes  
+
+✅ **Action Successfully Completed**  
+If the command is executed correctly, you will see a confirmation message:  
+
+> ✅ **Success:** The action was completed successfully, and any necessary changes have been made.  
+
+Depending on the command, this could mean an infraction was added, removed, or displayed.  
+
+❌ **Insufficient Permissions**  
+If you do not have the required permissions, you will receive an error message:  
+
+> ⚠️ **Error:** You do not have permission to use this command.  
+
+Ensure you have the necessary permissions or roles to perform this action.  
+
+
+---
+
+You have now learned how to use the Review module!
